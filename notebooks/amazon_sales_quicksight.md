@@ -2,7 +2,7 @@
 This dashboard was built using Amazon QuickSight to analyze product performance, discounts, ratings, and category trends.
 
 ## Full Dashboard
-![Main Dashboard](../screenshots/main-dashboard.png)
+![Main Dashboard](../screenshots/main-dashboard.PNG)
 
 ## Dashboard Objective
 - The goal of this dashboard is to analyze product performance and consumer behavior, identifying the units with discount, categories, rating and typical products characteristics.
@@ -66,18 +66,18 @@ The dashboard includes the following visualizations:
 ## Dashboard Content
 
 ### Top 5 Products
-![Top 5 Products](../screenshots/dashboard-pt1.png)
+![Top 5 Products](../screenshots/dashboard-pt1.PNG)
 
 ### Category
-![Prices by Category](../screenshots/dashboard-pt2.png)
-![Category Level 1](../screenshots/dashboard-pt8.png)
-![Category Level 2](../screenshots/dashboard-pt9.png)
+![Prices by Category](../screenshots/dashboard-pt2.PNG)
+![Category Level 1](../screenshots/dashboard-pt8.PNG)
+![Category Level 2](../screenshots/dashboard-pt9.PNG)
 
 ### Clients Savings and Units with Discount
-![Clients Savings](../screenshots/dashboard-pt3.png)
-![Clients Savings](../screenshots/dashboard-pt4.png)
+![Clients Savings](../screenshots/dashboard-pt3.PNG)
+![Clients Savings](../screenshots/dashboard-pt4.PNG)
 
 #### Rating
 ![Rating Table](../screenshots/dashboard-pt5.png)
-![Units Sold by Rating](../screenshots/dashboard-pt6.png)
-![Numbers of Units Sold by Rating](../screenshots/dashboard-pt7.png)
+![Units Sold by Rating](../screenshots/dashboard-pt6.PNG)
+![Numbers of Units Sold by Rating](../screenshots/dashboard-pt7.PNG)
