@@ -142,7 +142,7 @@ When analyzing product performance with discounts, the following insights were o
 - Products with a higher number of ratings are more likely to be purchased by customers.
 
 ## Dashboard
-![Main Dashboard](screenshots/main-dashboard.png)
+![Main Dashboard](screenshots/main-dashboard.PNG)
 
 ## Key Insights
 
@@ -156,22 +156,22 @@ When analyzing product performance with discounts, the following insights were o
 
 | Top 5 Products | Prices by Category |
 |-------------|-------------|
-| ![](screenshots/dashboard-pt1.png) | ![](screenshots/dashboard-pt2.png) |
+| ![](screenshots/dashboard-pt1.PNG) | ![](screenshots/dashboard-pt2.PNG) |
 
 | Clients Savings by % Discounted | Units by % Discounted |
 |--------------|--------------|
-| ![](screenshots/dashboard-pt3.png) | ![](screenshots/dashboard-pt4.png) |
+| ![](screenshots/dashboard-pt3.PNG) | ![](screenshots/dashboard-pt4.PNG) |
 
 | Rating Table | Units Sold by Rating |
 |-------------|-------------|
-| ![](screenshots/dashboard-pt5.png) | ![](screenshots/dashboard-pt6.png) |
+| ![](screenshots/dashboard-pt5.PNG) | ![](screenshots/dashboard-pt6.PNG) |
 
 | Numbers of Units Sold by Rating |
 |--------------------------------|
-| ![](screenshots/dashboard-pt7.png) |
+| ![](screenshots/dashboard-pt7.PNG) |
 
 | Actual Price by Category1 | Actual Price by Category2 |
 |--------------|--------------|
-| ![](screenshots/dashboard-pt8.png) | ![](screenshots/dashboard-pt9.png) |
+| ![](screenshots/dashboard-pt8.PNG) | ![](screenshots/dashboard-pt9.PNG) |
 
 
