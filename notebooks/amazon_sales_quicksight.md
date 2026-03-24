@@ -78,6 +78,6 @@ The dashboard includes the following visualizations:
 ![Clients Savings](../screenshots/dashboard-pt4.PNG)
 
 #### Rating
-![Rating Table](../screenshots/dashboard-pt5.png)
+![Rating Table](../screenshots/dashboard-pt5.PNG)
 ![Units Sold by Rating](../screenshots/dashboard-pt6.PNG)
 ![Numbers of Units Sold by Rating](../screenshots/dashboard-pt7.PNG)
