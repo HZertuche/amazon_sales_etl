@@ -1,11 +1,21 @@
 # Amazon Sales Dashboard
+
 This dashboard was built using Amazon QuickSight to analyze product performance, discounts, ratings, and category trends.
 
 ## Full Dashboard
-![Main Dashboard](../screenshots/main-dashboard.png)
+
+![Main Dashboard](../screenshots/main-dashboard.PNG)
 
 ## Dashboard Objective
+
 - The goal of this dashboard is to analyze product performance and consumer behavior, identifying the units with discount, categories, rating and typical products characteristics.
+
+## Business Questions
+- Which product categories contain the most expensive items in the inventory?
+- How do extreme discounts impact potential revenue and profitability?
+- What discount range is most effective at driving higher sales volume?
+- What rating range is associated with higher product sales?
+- Is there a relationship between product ratings and the number of units sold?
 
 ## Dataset
 The dataset contains information about the products and prices. 
@@ -30,54 +40,73 @@ Key features include:
 - *product_link* - URL of the product
 
 ## Tech Stack
-- Python 
-- Amazon S3 - Storage 
-- AWS Glue – Data cleaning and preprocessing    
-- Athena - Queries results
-- Amazon QuickSight - Data visualization dashboard
+- **Python** – Data processing and pipeline scripting
+- **Amazon S3** – Cloud data storage  
+- **AWS Glue** – ETL data transformation
+- **Amazon Athena** – Serverless SQL query engine
+- **Amazon QuickSight** – Data visualization and dashboarding
 
-## Feature Engineering
+## Metrics & Features
 - *units* - Number of units
 
 ## Visualizations
 The dashboard includes the following visualizations:
 
-- Top products with the highest actual price.
-- Table showing Prices by category
-- Bar chart showing clients savings based on the discount price
-- Bar chart showing units sold depending on the discount percentage
-- Table with Rating and number of units by category
-- Chart showing the relationship between units sold and rating
-- Bar chart with the number of units sold by rating
-- Pie chart by category 1 based on the actual price of the units
-- Pie chart by category 2 based on the actual price of the units
+- Top Products by Price, highlighting the highest-priced items in the inventory.
+- Price Distribution by Category, showing how product pricing varies across categories.
+- Customer Savings Analysis, illustrating the total savings generated from discounts.
+- Units Sold by Discount Percentage, analyzing how discount levels impact sales volume.
+- Rating and Units Sold Table, summarizing product performance across categories.
+- Units Sold vs Rating, exploring the relationship between customer ratings and sales.
+- Units Sold by Rating, identifying which rating ranges drive higher demand.
+- Category-Level Price Distribution (Level 1), showing the contribution of top-level categories to total product value.
+- Category-Level Price Distribution (Level 2), providing a more granular breakdown of pricing across subcategories.
 
 ## Filters
-- The dashboard includes an interactive Category Level 1 filter, allowing users to explore product performance by category.
-- Most visualizations dynamically update based on the selected category, enabling deeper analysis of product behavior and consumer trends.
+- Category Level 1 Filter: Enables users to dynamically explore product performance across different top-level categories.
+- Dynamic Filtering: Most visualizations update automatically based on the selected category, allowing focused analysis of pricing, discounts, and ratings.
+- Top N Filtering: Applied to highlight the most expensive products and key contributors within each category.
 
-## Key Insights
-- Four of the most expensive products belong to the Electronics category. 
-- One product had a 91% discount, representing a potential revenue reduction of $91,000. 
-- Customers purchase the highest number of units when discounts are between 50% and 60%.
-- Products with ratings between 4.0 and 4.4 are more likely to be purchased.
-- The categories with the most rating count, were the ones who sold more.
+## Dashboard Highlights
+
+Key analytical components included in the dashboard:
+
+- KPI-driven analysis of pricing, discounts, and product performance.
+Product-level insights highlighting the most expensive items and their distribution across categories.
+- Discount analysis to evaluate its impact on customer purchasing behavior and sales volume.
+- Rating-based analysis to understand how customer perception influences product demand.
+- Category-level breakdown of product performance using hierarchical category structures.
+- Correlation analysis between product ratings and units sold.
+- Interactive filtering to dynamically explore product performance across categories.
 
 ## Dashboard Content
 
-### Top 5 Products
-![Top 5 Products](../screenshots/dashboard-pt1.png)
+| Top Departments | Prices by Category |
+|----------------|------------|
+| ![Top 5 Products](../screenshots/dashboard-pt1.PNG) | ![Prices by Category](../screenshots/dashboard-pt2.PNG) |
 
-### Category
-![Prices by Category](../screenshots/dashboard-pt2.png)
-![Category Level 1](../screenshots/dashboard-pt8.png)
-![Category Level 2](../screenshots/dashboard-pt9.png)
+| Clients Savings | Units with Discount |
+|---------------|---------------|
+| ![Clients Savings](../screenshots/dashboard-pt3.PNG) | ![Clients Savings](../screenshots/dashboard-pt4.PNG) |
 
-### Clients Savings and Units with Discount
-![Clients Savings](../screenshots/dashboard-pt3.png)
-![Clients Savings](../screenshots/dashboard-pt4.png)
+| Rating Table | Units Sold by Rating |
+|----------------|------------|
+| ![Rating Table](../screenshots/dashboard-pt5.PNG) | ![Units Sold by Rating](../screenshots/dashboard-pt6.PNG) |
 
-#### Rating
-![Rating Table](../screenshots/dashboard-pt5.png)
-![Units Sold by Rating](../screenshots/dashboard-pt6.png)
-![Numbers of Units Sold by Rating](../screenshots/dashboard-pt7.png)
+| Numbers of Units Sold by Rating |
+|---------------|---------------|
+| ![Numbers of Units Sold by Rating](../screenshots/dashboard-pt7.PNG) |
+
+| Category Level 1 | Category Level 2 |
+|----------------|------------|
+| ![Category Level 1](../screenshots/dashboard-pt8.PNG) | ![Category Level 2](../screenshots/dashboard-pt9.PNG) |
+
+
+## Key Insights
+- High-priced products are concentrated in the Electronics category, indicating that this segment drives the upper range of the product pricing distribution.
+- Extreme discounts can significantly impact potential revenue, as seen in a product with a 91% discount leading to an estimated $91,000 revenue reduction.
+- Sales volume peaks when discounts range between 50% and 60%, suggesting an optimal discount window for maximizing customer purchases.
+- Products with ratings between 4.0 and 4.4 show higher purchase frequency, indicating that moderately high ratings are sufficient to drive demand.
+- Categories with higher rating counts tend to generate more sales, highlighting the importance of customer engagement and review volume.
+
+
