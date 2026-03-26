@@ -3,7 +3,6 @@
 This dashboard was built using Amazon QuickSight to analyze product performance, discounts, ratings, and category trends.
 
 ## Full Dashboard
-
 ![Main Dashboard](../screenshots/main-dashboard.PNG)
 
 ## Dashboard Objective
